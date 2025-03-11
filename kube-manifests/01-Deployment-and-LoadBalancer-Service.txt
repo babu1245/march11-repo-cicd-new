@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: babuaugrepoaug24 
-          image: aug24registry.azurecr.io/babuaugrepoaug24
+          image: march30acr.azurecr.io/march10repo
           ports:
           - containerPort: 80
 - - -
