@@ -30,8 +30,8 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'march10-serviceconn'
-        repository: 'march11-cont-repo'
+        containerRegistry: 'march11conn'
+        repository: 'march11contreg'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
