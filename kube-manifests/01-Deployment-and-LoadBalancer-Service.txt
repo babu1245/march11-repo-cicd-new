@@ -17,7 +17,7 @@ spec:
           image: march30acr.azurecr.io/march10repo
           ports:
           - containerPort: 80
-- - -
+---
 apiVersion: v1
 kind: Service
 metadata:
